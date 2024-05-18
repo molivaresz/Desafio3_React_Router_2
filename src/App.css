@@ -1,0 +1,82 @@
+nav {
+  display: flex;
+  justify-content: space-between;
+  background-color: gray;
+  padding-top: 10px;
+  padding-bottom: 10px;
+  padding-left: 40px;
+  padding-right: 40px;
+}
+
+nav a {
+  color: white;
+  text-decoration:none;
+  font-size: 25px;
+}
+
+nav a.activa {
+  color: red;
+  text-decoration:none;
+}
+
+.presentacionTitulo {
+  text-align: center;
+  padding-top: 40px;
+  font-size: 50px;
+}
+
+.SelectPokemones {
+  text-align: center;
+  padding-top: 40px;
+  font-size: 30px;
+}
+
+.mybutton {
+  padding: 10px 20px;
+  background-color: brown;
+  color: white;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+.mybutton:hover {
+  background-color: crimson;
+}
+
+.mybutton:active {
+  background-color: burlywood;
+}
+
+.content-select{
+max-width: 250px;
+position: relative;
+}
+
+select{
+display: inline-block;
+width: 10em;
+cursor: pointer;
+  padding: 4px 7px;
+  border: 0;
+border-radius: 0;
+background: #f0f0f0;
+color: #7b7b7b;
+font-size: 1em;
+color: #999;
+font-family:'Quicksand', sans-serif;
+border:2px solid rgba(0,0,0,0.2);
+  border-radius: 12px;
+  position: relative;
+  transition: all 0.25s ease;
+}
+
+.select:hover{
+background: #B1E8CD;
+}
+
+.posCard {
+  display: flex;
+  justify-content: center;
+  padding-top: 40px;
+}
